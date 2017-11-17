@@ -114,9 +114,9 @@ public class SCPackageManager {
                     for (File file : files){
                         Log.d(TAG, "name = " + file.getName());
                         //getPackageSize(file);
-                        String md5File = getFileMD5(file);
                         if(file.getName().equals(packageName)){
                             Log.d(TAG, "original size = " + size);
+                            String md5File = getFileMD5(file);
                             if(getPackageSize(file) >= size
                                     && md5File != null
                                     && md5File.equals(md5Str.toUpperCase())){

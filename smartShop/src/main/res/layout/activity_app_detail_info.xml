@@ -5,6 +5,7 @@
     xmlns:ratingbar = "http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/btn_pressed_color"
     tools:context="com.lenovo.smartShop.activity.AppDetailInfoActivity">
 
     <RelativeLayout
@@ -18,13 +19,14 @@
             android:layout_width="23dp"
             android:layout_height="23dp"
             android:layout_centerVertical="true"
-            android:src="@mipmap/back"/>
+            android:src="@mipmap/white_back"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/app_Info"
             android:textSize="18sp"
+            android:textColor="@color/color_white"
             android:layout_centerInParent="true"/>
 
     </RelativeLayout>
@@ -43,6 +45,7 @@
         android:layout_width="match_parent"
         android:layout_height="@dimen/icon_layout_height"
         android:layout_below="@+id/underline0"
+        android:background="@color/color_white"
         android:padding="5dp">
 
         <ImageView
@@ -154,6 +157,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:scrollbars="none"
+        android:background="@color/color_white"
         android:layout_above="@+id/underline3"
         android:layout_below="@+id/underline2">
 

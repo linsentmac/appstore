@@ -166,8 +166,8 @@ public class ListViewAdapter extends BaseAdapter {
                         //com.lenovo.smartShop.utils.DownLoadManager.getInstance(context).installApk(new File(ListViewAdapter.FILEPATH, packageName));
                         StateMachine.getInstance().getApkServerMd5Str(context, mUrl, packageName, 0, false);
                         //com.lenovo.smartShop.utils.DownLoadManager.getInstance(context).installPacakageByPm(new File(ListViewAdapter.FILEPATH, packageName));
-                        //com.lenovo.smartShop.utils.DownLoadManager.getInstance(context).sendInstallMessage(new File(ListViewAdapter.FILEPATH, packageName));
-                        com.lenovo.smartShop.utils.DownLoadManager.getInstance(context).installApk(new File(ListViewAdapter.FILEPATH, packageName));
+                        com.lenovo.smartShop.utils.DownLoadManager.getInstance(context).sendInstallMessage(new File(ListViewAdapter.FILEPATH, packageName));
+                        //com.lenovo.smartShop.utils.DownLoadManager.getInstance(context).installApk(new File(ListViewAdapter.FILEPATH, packageName));
                     }
                 }
 

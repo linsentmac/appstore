@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/btn_pressed_color"
     tools:context="com.lenovo.smartShop.activity.SearchActivity">
 
     <com.lenovo.smartShop.view.SearchView
@@ -16,6 +17,7 @@
 
     <ListView
         android:visibility="gone"
+        android:background="@color/color_white"
         android:id="@+id/main_lv_search_results"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
